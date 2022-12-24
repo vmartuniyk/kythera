@@ -39,7 +39,7 @@
 
         @include('site.document.text.blocks.view.comment')
         <div class="show-more-btn">
-            <a href="#">View Similar Entries Test</a>
+            <a href="#">View Similar Entries Git</a>
         </div>
     </div>
 </div>
