@@ -1,0 +1,89 @@
+/*search*/
+.xheader-menu li.search {padding:4px 10px}
+.xheader-menu li.search.last form#remote.search {line-height:22px}
+.xtypeahead, .tt-query, .xtt-hint {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    xfont-size: 24px;
+    height: 30px;
+    xline-height: 30px;
+    outline: medium none;
+    padding: 8px 12px;
+    width: 396px;
+}
+.typeahead {
+    outline:none;
+    xheight:22px;
+    margin-left:4px;
+    padding:2px;
+    padding:0;
+}
+.tt-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 12px 0;
+    padding: 8px 0;
+    width: 422px;
+    left:-100px;
+}
+.tt-menu, .gist {
+    text-align: left;
+}
+.tt-suggestion, .tt-more {
+    padding: 10px 20px;
+    color:#000;
+    font-size: 14px;
+    line-height: 18px;
+}
+.tt-highlight,
+.tt-highlight em {
+    color:#38ACF1;
+    color:red;
+}
+.tt-suggestion:hover {
+  cursor: pointer;
+  background-color: #eee;
+}
+.tt-suggestion.tt-cursor {
+  xcolor: #fff;
+  background-color: #eee;
+}
+.tt-suggestion h2 {
+    color: #00adf0;
+    margin: 0 0 4px;
+    font-size: 14px;
+}
+.tt-suggestion h2 a {
+    color: #00adf0;
+    margin: 0 0 4px;
+    font-size: 14px;
+}
+.tt-suggestion i.c {
+    color:#898989;
+    font-size: 10px;
+    float:right;
+}
+.tt-suggestion span.d {
+    color:#898989;
+    font-size: 12px;
+}
+.tt-suggestion span.v {
+    color:#707070;
+    font:12px/18px arial;
+}
+.tt-more a {
+    text-decoration:none;
+    float:right;
+}
+.tt-dropdown-menu {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 12px 0;
+    padding: 8px 0;
+    width: 422px;
+}
+

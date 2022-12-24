@@ -1,0 +1,227 @@
+[2021-10-07 13:19:25] Processed: mailer@handleQueuedMessage
+[2021-10-07 13:22:13] Processed: mailer@handleQueuedMessage
+[2021-10-10 12:05:27] Processed: App\Listeners\EntityListener@onEntityCreated
+[2021-10-10 12:05:27] Processed: App\Listeners\MessageListener@onMessageCreated
+[2021-10-16 21:43:25] Processed: mailer@handleQueuedMessage
+[2021-10-24 08:37:33] Processed: App\Listeners\EntityListener@onEntityCreated
+[2021-11-12 08:26:03] Processed: mailer@handleQueuedMessage
+[2021-11-12 08:26:45] Processed: mailer@handleQueuedMessage
+[2021-11-13 09:44:59] Processed: mailer@handleQueuedMessage
+[2021-11-13 13:45:49] Processed: mailer@handleQueuedMessage
+[2021-12-01 01:25:24] Processed: App\Listeners\EntityListener@onEntityCreated
+[2021-12-02 13:45:01] Processed: mailer@handleQueuedMessage
+[2021-12-03 06:47:39] Processed: mailer@handleQueuedMessage
+[2021-12-03 15:23:40] Processed: mailer@handleQueuedMessage
+[2021-12-05 08:57:27] Processed: mailer@handleQueuedMessage
+[2021-12-07 10:31:26] Processed: mailer@handleQueuedMessage
+[2021-12-07 10:58:41] Processed: mailer@handleQueuedMessage
+[2021-12-07 15:46:10] Processed: mailer@handleQueuedMessage
+[2021-12-07 15:46:53] Processed: mailer@handleQueuedMessage
+[2021-12-07 15:47:32] Processed: mailer@handleQueuedMessage
+[2021-12-10 22:17:01] Processed: mailer@handleQueuedMessage
+[2021-12-14 02:05:07] Processed: mailer@handleQueuedMessage
+[2021-12-14 02:05:37] Processed: mailer@handleQueuedMessage
+[2021-12-14 02:11:24] Processed: mailer@handleQueuedMessage
+[2021-12-14 02:12:24] Processed: mailer@handleQueuedMessage
+[2021-12-14 02:12:37] Processed: mailer@handleQueuedMessage
+[2021-12-14 04:44:58] Processed: mailer@handleQueuedMessage
+[2021-12-21 14:35:05] Processed: mailer@handleQueuedMessage
+[2021-12-23 15:19:21] Processed: mailer@handleQueuedMessage
+[2021-12-24 01:49:19] Processed: mailer@handleQueuedMessage
+[2021-12-24 01:49:29] Processed: mailer@handleQueuedMessage
+[2022-01-02 05:49:06] Processed: mailer@handleQueuedMessage
+[2022-01-02 06:01:47] Processed: mailer@handleQueuedMessage
+[2022-01-08 08:38:51] Processed: mailer@handleQueuedMessage
+[2022-01-11 22:57:33] Processed: mailer@handleQueuedMessage
+[2022-01-23 05:45:25] Processed: mailer@handleQueuedMessage
+[2022-01-26 12:04:43] Processed: mailer@handleQueuedMessage
+[2022-01-26 12:05:39] Processed: mailer@handleQueuedMessage
+[2022-01-26 12:09:07] Processed: mailer@handleQueuedMessage
+[2022-01-26 20:44:45] Processed: mailer@handleQueuedMessage
+[2022-01-27 13:01:01] Processed: mailer@handleQueuedMessage
+[2022-01-27 13:08:30] Processed: mailer@handleQueuedMessage
+[2022-01-29 00:26:45] Processed: mailer@handleQueuedMessage
+[2022-01-29 01:02:10] Processed: mailer@handleQueuedMessage
+[2022-01-29 01:40:18] Processed: mailer@handleQueuedMessage
+[2022-01-29 06:37:56] Processed: mailer@handleQueuedMessage
+[2022-01-29 11:15:27] Processed: mailer@handleQueuedMessage
+[2022-01-29 11:57:08] Processed: mailer@handleQueuedMessage
+[2022-01-29 11:57:29] Processed: mailer@handleQueuedMessage
+[2022-01-29 11:59:14] Processed: mailer@handleQueuedMessage
+[2022-01-29 12:18:05] Processed: mailer@handleQueuedMessage
+[2022-02-07 08:48:52] Processed: mailer@handleQueuedMessage
+[2022-02-08 20:28:18] Processed: mailer@handleQueuedMessage
+[2022-02-09 22:31:29] Processed: mailer@handleQueuedMessage
+[2022-02-10 04:36:36] Processed: mailer@handleQueuedMessage
+[2022-02-10 06:00:05] Processed: mailer@handleQueuedMessage
+[2022-02-10 07:12:25] Processed: mailer@handleQueuedMessage
+[2022-02-10 08:24:57] Processed: mailer@handleQueuedMessage
+[2022-02-10 18:17:39] Processed: mailer@handleQueuedMessage
+[2022-02-11 01:54:25] Processed: mailer@handleQueuedMessage
+[2022-02-11 02:25:14] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-11 07:10:43] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-11 07:24:53] Processed: mailer@handleQueuedMessage
+[2022-02-11 09:21:55] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-11 09:24:11] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-02-15 07:30:53] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-15 07:30:54] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-15 08:02:30] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-02-16 12:55:55] Processed: mailer@handleQueuedMessage
+[2022-02-22 08:06:41] Processed: mailer@handleQueuedMessage
+[2022-02-28 07:55:59] Processed: mailer@handleQueuedMessage
+[2022-02-28 17:28:08] Processed: mailer@handleQueuedMessage
+[2022-02-28 17:28:26] Processed: mailer@handleQueuedMessage
+[2022-02-28 17:35:25] Processed: App\Listeners\EntityListener@onEntityCreated
+[2022-03-28 03:30:00] Processed: mailer@handleQueuedMessage
+[2022-03-29 23:38:16] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-03-29 23:38:47] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-03-30 16:54:47] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-03-30 16:57:19] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-03-30 16:58:06] Processed: App\Listeners\EntityListener@onEntityUpdated
+[2022-03-30 22:47:17] Processed: mailer@handleQueuedMessage
+[2022-03-31 04:29:37] Processed: mailer@handleQueuedMessage
+[2022-03-31 04:31:29] Processed: mailer@handleQueuedMessage
+[2022-04-01 04:14:50] Processed: mailer@handleQueuedMessage
+[2022-04-06 12:01:50] Processed: mailer@handleQueuedMessage
+[2022-04-06 12:05:06] Processed: mailer@handleQueuedMessage
+[2022-04-06 12:06:18] Processed: mailer@handleQueuedMessage
+[2022-04-06 12:07:12] Processed: mailer@handleQueuedMessage
+[2022-04-10 06:16:18] Processed: mailer@handleQueuedMessage
+[2022-04-10 06:16:29] Processed: mailer@handleQueuedMessage
+[2022-04-11 07:43:47] Processed: mailer@handleQueuedMessage
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+[2022-04-14 15:54:41] Processed: mailer@handleQueuedMessage
+[2022-04-14 16:24:44] Processed: mailer@handleQueuedMessage
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+                                                    
+  [PDOException]                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+[2022-04-24 19:21:43] Processed: mailer@handleQueuedMessage
+[2022-04-26 04:34:01] Processed: App\Listeners\CommentListener@onCommentCreated

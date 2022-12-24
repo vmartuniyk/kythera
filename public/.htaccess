@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+    RewriteBase /
+    
+    # If-Modified-Since (if php is not installed as cgi then comment lines below)
+    #RewriteRule .* - [E=HTTP_IF_MODIFIED_SINCE:%{HTTP:If-Modified-Since}]
+    #RewriteRule .* - [E=HTTP_IF_NONE_MATCH:%{HTTP:If-None-Match}]    
+
+    # Redirect Trailing Slashes...
+    # but allow serving from subdirectories
+    RewriteCond %{REQUEST_URI} !^/issues
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+    
+    # redirects for a couple of 404s. source of problem needs to be addressed. @fda-2017-05-08
+    
+    RedirectMatch 301 ^/en/photos/diaspore-vintage-portraits-people/leslie-comino-farming$ http://www.kythera-family.net/en/photos/diaspora-vintage-portraits-people/leslie-comino-farming
+    Redirect 301 "/petition" "https://www.ipetitions.com/petition/save-kytheras-pristine-skyline-stop-industrial"
+    
+</IfModule>

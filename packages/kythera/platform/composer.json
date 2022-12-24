@@ -1,0 +1,24 @@
+{
+    "name": "kythera/platform",
+    "description": "",
+    "authors": [
+        {
+            "name": "virgilm",
+            "email": "virgilm@mirror.virtec.og"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/commands",
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Kythera\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

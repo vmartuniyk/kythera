@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>The very first family chart</title>
+
+    <link rel="stylesheet" href="demo/js/jquery/ui-lightness/jquery-ui-1.10.2.custom.css" />
+    <script type="text/javascript" src="demo/js/jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="demo/js/jquery/jquery-ui-1.10.2.custom.min.js"></script>
+
+    <!-- # include file="src/src.primitives.html"-->
+    <script  type="text/javascript" src="demo/js/primitives.min.js?2023"></script>
+    <link href="demo/css/primitives.latest.css?2023" media="screen" rel="stylesheet" type="text/css" />
+    
+    <style type="text/css">
+    #basicdiagram {cursor:grab;}
+    .bp-item {cursor:auto;}
+    </style>
+
+    <script type='text/javascript'>//<![CDATA[ 
+        $(window).load(function () {
+            var options = new primitives.famdiagram.Config();
+            console.log(options);
+/*
+            var items = [
+                { id: 1, spouses: [2], title: "Thomas Williams", label: "Thomas Williams", description: "1, 1st husband", image: "demo/images/photos/t.png" },
+                { id: 2, spouses: [], title: "Mary Spencer", label: "Mary Spencer", description: "2, The Mary",image: "demo/images/photos/m.png" },
+                { id: 3, spouses: [2], title: "David Kirby", label: "David Kirby", description: "3, 2nd Husband", image: "demo/images/photos/d.png" },
+                { id: 4, parents: [1, 2], title: "Brad Williams", label: "Brad Williams", description: "4, 1st son", image: "demo/images/photos/b.png" },
+                { id: 5, parents: [2, 3], spouses: [6, 7], title: "Mike Kirby", label: "Mike Kirby", description: "5, 2nd son, having 2 spouses", image: "demo/images/photos/m.png"},
+                { id: 6, title: "Lynette Maloney", label: "Lynette Maloney", description: "5, Spouse I", image: "demo/images/photos/m.png" },
+                { id: 7, title: "Sara Kemp", label: "Sara Kemp", description: "5, Spouse II :-)", image: "demo/images/photos/s.png" },
+                { id: 8, parents: [7], title: "Leon Kemp", label: "Leon Kemp", description: "5, Orphant", image: "demo/images/photos/l.png" }
+            ];
+            */
+
+            var items = [
+                { id: 1, parents: [7, 8], spouses: [2], title: "MOTHER", label: "", description: "1st SPOUSE", image: "demo/images/photos/avatar.png" },
+                { id: 2, parents: [5, 6], spouses: [], title: "FATHER", label: "", description: "1st HUSBAND",image: "demo/images/photos/avatar.png" },
+                { id: 3, parents: [1, 2], spouses: [], title: "CHILD", label: "", description: "1st CHILD",image: "demo/images/photos/avatar.png" },
+                { id: 4, parents: [1, 2], spouses: [], title: "CHILD", label: "", description: "2nd CHILD",image: "demo/images/photos/avatar.png" },
+                { id: 5, parents: [], spouses: [], title: "GRANDPA 1", label: "", description: "GRANDPA",image: "demo/images/photos/avatar.png" },
+                { id: 6, parents: [], spouses: [5], title: "GRANDMA 1", label: "", description: "GRANDMA",image: "demo/images/photos/avatar.png" },
+                { id: 7, parents: [], spouses: [], title: "GRANDPA 2", label: "", description: "GRANDPA",image: "demo/images/photos/avatar.png" },
+                { id: 8, parents: [], spouses: [7], title: "GRANDMA 2", label: "", description: "GRANDMA",image: "demo/images/photos/avatar.png" }
+            ];
+          
+
+            /*
+            var items = [
+                         new primitives.famdiagram.ItemConfig({
+                             id: 1,
+                             title: "PA",
+                             image: "demo/images/photos/p.png"
+                         }),
+                         new primitives.famdiagram.ItemConfig({
+                             id: 2,
+                             title: "MA",
+                             image: "demo/images/photos/m.png",
+                             spouses: [1]
+                         }),
+                         new primitives.famdiagram.ItemConfig({
+                             id: 3,
+                             parent: [0, 1],
+                             title: "CHILD 1",
+                             image: "demo/images/photos/c.png"
+                         })
+                     ];
+            */
+            
+            options.items = items;
+        
+            options.graphicsType = 0;
+            options.pageFitMode = 0;
+            options.minimalVisibility = 1;
+            options.orientationType = 0;
+            options.horizontalAlignment = 0;
+            options.verticalAlignment = 0;
+            
+            
+            options.arrowsDirection = 0;
+            options.connectorType = 0;
+            options.elbowType = 0;
+            options.elbowDotSize = 14;
+            
+            options.emptyDiagramMessage = 0;
+            
+            options.hasSelectorCheckbox = 0;
+            options.selectCheckBoxLabel = 'Selected';
+            
+            options.selectionPathMode = 1;
+            
+            var buttons = [];
+            buttons.push(new primitives.orgdiagram.ButtonConfig("delete", "ui-icon-close", "Delete"));
+            buttons.push(new primitives.orgdiagram.ButtonConfig("properties", "ui-icon-gear", "Info"));
+            buttons.push(new primitives.orgdiagram.ButtonConfig("add", "ui-icon-person", "Add"));
+            options.buttons = buttons;
+            options.hasButtons = 0;
+            options.onButtonClick = function (e, data) {
+                var message = "User clicked '" + data.name + "' button for item '" + data.context.title + "'.";
+                alert(message);
+            };
+            
+            options.lineLevelShift = 20;
+            options.normalLevelShift = 20;
+            options.normalItemsInterval = 40;
+            options.lineItemsInterval = 20;
+            options.cousinsIntervalMultiplier = 5;
+            
+            options.leavesPlacementType = 0;
+            options.cursorItem = 0;
+
+            //options.linesColor = "black";
+            options.linesWidth = 1;
+            options.linesType = primitives.common.LineType.Dotted; //Dashed, Solid
+      
+            /*
+            options.dotLevelShift = 20;
+            options.dotItemsInterval = 10;
+            */
+            
+
+            /*
+            options.items = items;
+            options.cursorItem = 2;
+            options.linesWidth = 1;
+            options.linesColor = "black";
+            options.hasSelectorCheckbox = primitives.common.Enabled.False;
+            options.normalLevelShift = 20;
+            options.dotLevelShift = 20;
+            options.lineLevelShift = 20;
+            options.normalItemsInterval = 10;
+            options.dotItemsInterval = 10;
+            options.lineItemsInterval = 10;
+            options.arrowsDirection = primitives.common.GroupByType.Parents;
+            */
+
+            //options.editMode = 0;
+                        
+            
+            jQuery("#basicdiagram").famDiagram(options);
+        });//]]>  
+
+    </script>
+</head>
+<body>
+    <div id="basicdiagram" style="width: 640px; height: 480px; border-style: dotted; border-width: 1px;" />
+</body>
+</html>

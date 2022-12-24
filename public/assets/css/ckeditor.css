@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    padding: 10px
+}
+
+p {
+    color: #000000;
+    font: 14px/19px arial;
+    xmargin-left: 10px;
+}
+
+p a {
+    text-decoration: underline;
+    color: #428bca;
+}
+
+h1 {
+    font: bold 34px/34px arial;
+    color: #000000;
+}
+
+h2 {
+    color: #00adf0;
+    font: 30px/30px arial;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    font: bold 18px/18px arial;
+    color: #000000;
+}

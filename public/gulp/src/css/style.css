@@ -1,0 +1,204 @@
+/*!
+ * Kythera v0.1
+ *
+ * Copyright 2014 virgilm
+ */
+.debug .navbar-default {
+    background-color: #428BCA
+}
+
+.debug .navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+/*.dropdown-submenu:hover>.dropdown-menu{display:block;}*/
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #cccccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+.padding-left-ten-px {
+    padding-left: 10px;
+}
+
+.red-text {
+    color: #FF0000;
+}
+
+.twitter-blue {
+    color: #1ec7fe;
+}
+
+.facebook-blue {
+    color: #3c599f;
+}
+
+.linkedin-blue {
+    color: #0080b2;
+}
+
+.navbar-right {
+    padding-right: 25px;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form-panel-width {
+    width: 220px;
+} /*YOU CAN MAKE PANEL AS WIDE AS NEEDED*/
+.form-panel-width {
+    width: 100%;
+} /*YOU CAN MAKE PANEL AS WIDE AS NEEDED*/
+.color-blue {
+    color: #0080c5;
+}
+
+.color-red {
+    color: #FF0000;
+}
+
+.error-message {
+    font-size: 10px;
+}
+
+[class*="bg-"] {
+    padding: 15px;
+}
+
+.clear {
+    clear: both
+}
+
+.blue {
+    color: #00adf0
+}
+
+ul.log li {
+    color: #00adf0
+}
+
+ul.log li p {
+    color: #000;
+    white-space: pre-line;
+}
+
+hr.thin {
+    border: 0;
+    height: 1px;
+    background-color: #dfdfdf;
+}
+
+@media screen and (min-width: 30em ) {
+    .form-panel-width {
+        width: 100%;
+    }
+}
+
+.glyphicon-user {
+    margin-right: 5px
+}
+
+#remember {
+    height: 14px;
+    margin-right: 4px
+}
+
+#signInDropdown input[type=email] {
+    width: 212px
+}
+
+#signInDropdown input[type=password] {
+    width: 212px
+}
+
+body {
+    font-family: Ubuntu, Helvetica, Arial, sans-serif !important
+}
+
+.typeahead, .tt-query, .tt-hint {
+    width: 300px;
+    x-webkit-border-radius: 8px;
+    x-moz-border-radius: 8px;
+    xborder-radius: 8px;
+    outline: none;
+}
+
+.typeahead {
+    background-color: #fff;
+}
+
+.typeahead:focus {
+    border: 2px solid #0097cf;
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-dropdown-menu {
+    width: 400px;
+    margin-top: 0;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.tt-suggestion {
+    padding: 3px 20px;
+}
+
+.tt-suggestion.tt-cursor {
+    color: #fff;
+    background-color: #0097cf;
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
