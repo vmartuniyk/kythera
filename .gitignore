@@ -18,3 +18,16 @@ kfn-tree.iml
 .env
 .buildpath
 .bowerrc
+.DS_Store
+/public/.DS_Store
+/public/assets/.DS_Store
+/public/assets/css/.DS_Store
+/public/assets/img/.DS_Store
+/public/assets/vendors/weather/src/.DS_Store
+/public/assets/vendors/weather/src/img/.DS_Store
+/public/assets/vendors/weather/src/img/icons/.DS_Store
+/public/assets/vendors/weather/src/img/icons/weather/.DS_Store
+/resources/.DS_Store
+/storage/.DS_Store
+/storage/framework/.DS_Store
+/storage/framework/views/.DS_Store
