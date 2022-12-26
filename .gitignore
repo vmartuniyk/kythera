@@ -30,5 +30,6 @@ kfn-tree.iml
 /resources/.DS_Store
 /storage/.DS_Store
 /storage/framework/.DS_Store
+/storage/framework/*
 /storage/framework/views/.DS_Store
 /public/assets/vendors/jplayer/
