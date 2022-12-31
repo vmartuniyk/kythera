@@ -49,7 +49,6 @@ class DocumentCommentController extends Controller
      */
     public function create()
     {
-
         if ($id = Session::get('entity.view.id')) {
             if (Auth::guest()) {
                 //save
@@ -65,15 +64,15 @@ class DocumentCommentController extends Controller
                 if ($validator->passes()) {
                     if ($entity = DocumentEntity::find($id)) {
                         if ($comment = Comment::create([
-                                'persons_id' => Auth::user()->id,
-                                'document_id' => $entity->id,
-                                'l' => App::getLocale(),
-                                'comment' => $input['comment'],
-                                'enabled' => 1
+                            'persons_id' => Auth::user()->id,
+                            'document_id' => $entity->id,
+                            'l' => App::getLocale(),
+                            'comment' => $input['comment'],
+                            'enabled' => 1
                         ])) {
                             //notify author
                             Event::fire('comment.created', $comment);
-
+//                            dd(Router::getItemUrl($entity));
                             return redirect(Router::getItemUrl($entity))
                                 ->with('global', "Comment successfully saved.");
                         }

@@ -39,6 +39,8 @@
 
                     <div class="inner-page__content content-inner text-first-screen">
                         <div class="content-inner__wrap">
+                            @if(Session::has('global'))<p class="bg-info">{!! Session::get('global') !!}</p>@endif
+
                             @include('site.document.image.blocks.index.head')
 
                             <section class="content-inner__articles inner-articles">
