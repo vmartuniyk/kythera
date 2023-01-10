@@ -38,17 +38,27 @@
                 <div class="card-articles__image">
                     
                     @if($item->image)
-                        <picture><source srcset="{{ $item->image }}" type="image/webp">
-                            <img src="{{ $item->image }} alt=""></picture>
+                        <a href="{!!$item->uri!!}">
+                            <picture>
+                                <source srcset="{{ $item->image }}" type="image/webp">
+                                <img src="{{ $item->image }} alt="">
+                            </picture>
+                        </a>
+
                     @else
-                        <picture><source srcset="{{ URL::asset('assets/img/history.webp') }}" type="image/webp">
-                            <img src="{{ URL::asset('assets/img/history.jpg?_v=1657459303074') }}" alt=""></picture>    
-                    
+                        <a href="{!!$item->uri!!}">
+                            <picture>
+                                <source srcset="{{ URL::asset('assets/img/history.webp') }}" type="image/webp">
+                                <img src="{{ URL::asset('assets/img/history.jpg?_v=1657459303074') }}" alt="">
+                            </picture>
+                        </a>
                     @endif
                     
                 </div>
                 <div class="card-articles__info">
-                    <h4 class="card-articles__title">{!!$item->title!!}</h4>
+                    <a href="{!!$item->uri!!}">
+                        <h4 class="card-articles__title">{!!$item->title!!}</h4>
+                    </a>
                     <p class="card-articles__text">
                         {!! str_limit(strip_tags($item->content)) !!}
                     </p>
