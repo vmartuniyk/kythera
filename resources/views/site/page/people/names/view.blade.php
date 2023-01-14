@@ -1,32 +1,19 @@
-@extends('site.layout.default')
+@extends('site.layout.default-new')
 
 @section('title')
     {{ $entry->title }}
 @stop
 
-@section('style')
-    .head h2 {color: #00adf0;font: bold 30px/30px arial;}
-	ul.names {list-style:none;padding-left:0}
-	ul.names {margin-bottom:40px;}
-@stop
-
-
 @section('content')
-<div class="container">
-    <div class="head">
-        @include('site.document.text.blocks.index.head')
-    </div>
+    <main class="page">
+        <div class="inner-page">
+            <div class="inner-page__container">
+                <div class="inner-page__wrap">
+                    @include('partials.front.left-front-menu')
 
-    <div class="content">
-        <!-- content -->
-
-        <div class="col-md-8 col2">
-            @include('site.page.people.names.blocks.view.content')
+                    @include('site.page.people.names.blocks.view.content')
+                </div>
+            </div>
         </div>
-
-
-
-        <!-- /content -->
-    </div>
-</div>
+    </main>
 @stop
