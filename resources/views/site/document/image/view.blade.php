@@ -63,7 +63,7 @@
         <div class="inner-page">
             <div class="inner-page__container">
                 <div class="inner-page__wrap">
-                    @include('site.document.image.blocks.sidebar')
+                    @include('partials.front.left-front-menu')
 
                     @include('site.document.image.blocks.view.content')
 
