@@ -1,10 +1,13 @@
+/vendor
+/node_modules
+/public/storage
+Homestead.yaml
+Homestead.json
+.env
 .project
 .settings
 /app/config/local/database.php
 /tmp
-/public/storage
-/public/storage/*
-/storage/*.key
 /public/audio
 /public/download
 /public/downloads
@@ -12,7 +15,6 @@
 /public/uploads
 /public/backup
 /public/video
-/vendor
 !.gitignore
 .idea
 tree.iml
@@ -32,7 +34,4 @@ kfn-tree.iml
 /resources/.DS_Store
 /storage/.DS_Store
 /storage/framework/.DS_Store
-/storage/framework/*
-/storage/framework/views/*
-/storage/framework/views/.DS_Store
 /public/assets/vendors/jplayer/
