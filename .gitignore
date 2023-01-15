@@ -15,7 +15,6 @@ Homestead.json
 /public/uploads
 /public/backup
 /public/video
-!.gitignore
 .idea
 tree.iml
 kfn-tree.iml

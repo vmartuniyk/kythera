@@ -67,7 +67,11 @@
             <article class="inner-articles__card card-articles">
                 
                 <div class="card-articles__info" style="margin-left: 0px">
-                    <h4 class="card-articles__title">{!!$item->title!!}</h4>
+                    <h4 class="card-articles__title">
+                        <a href="{!!$item->uri!!}">
+                            {!!$item->title!!}
+                        </a>
+                    </h4>
                     <p class="card-articles__text">
                         {!! str_limit(strip_tags($item->content), 250) !!}
                     </p>

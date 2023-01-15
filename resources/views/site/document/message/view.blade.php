@@ -1,4 +1,4 @@
-{{--@extends('site.layout.default')--}}
+@extends('site.layout.default-new')
 
 @section('title')
 	{{ $page->title }} - {{ $item->title }}
