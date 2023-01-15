@@ -21,7 +21,7 @@
 					</p>
 				</div>
 				<div class="first-screen__buttons">
-					<a href="#" class="first-screen__family-btn btn btn-two-color">
+					<a href="/people/names" class="first-screen__family-btn btn btn-two-color">
 						Search Family Records
 						<svg class="icon-arrow-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.826 17.386">
 							<g id="Group_12" data-name="Group 12" transform="translate(-833.866 0.693)">
@@ -30,7 +30,7 @@
 							</g>
 						</svg>
 					</a>
-					<a href="#" class="first-screen__upload-btn btn btn-one-color">
+					<a href="/entry/create" class="first-screen__upload-btn btn btn-one-color">
 						Upload Your Entry
 						<svg class="icon-arrow-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.826 17.386">
 							<g id="Group_12" data-name="Group 12" transform="translate(-833.866 0.693)">
@@ -54,7 +54,7 @@
 						<p class="inner-section__text">
 							Discover the rich history of Kythera, an island steeped in Greek culture and mythology. Known as the birthplace of Aphrodite, Kythera was central to the Greek empire and carries those stories with it today. Learn more about this beautiful place.
 						</p>
-						<a href="#" class="inner-section__btn btn btn-accent-color">
+						<a href="/history/archaeology" class="inner-section__btn btn btn-accent-color">
 							Discover More History
 							<svg class="icon-arrow-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.826 17.386">
 								<g id="Group_12" data-name="Group 12" transform="translate(-833.866 0.693)">
@@ -82,7 +82,7 @@
 						<p class="inner-section__text">
 							Insert overview text about visiting the island and what attractions are available. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim…
 						</p>
-						<a href="#" class="inner-section__btn btn btn-three-color">
+						<a href="/tourist-information/where-to-stay" class="inner-section__btn btn btn-three-color">
 							Start Planning
 							<svg class="icon-arrow-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.826 17.386">
 								<g id="Group_12" data-name="Group 12" transform="translate(-833.866 0.693)">
@@ -102,7 +102,7 @@
 			<div class="accordion__container">
 				<div class="accordion-home__top">
 					<h3 class="accordion__title section-label">Frequent Questions</h3>
-					<a href="#" class="accordion__link-view view-link">
+					<a href="/helpfaq" class="accordion__link-view view-link">
 						View All Questions
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.132 16.693">
 							<g data-name="Group 23" transform="translate(-1292.865 -1328.645)">

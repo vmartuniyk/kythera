@@ -21,7 +21,7 @@
                         </svg>
                     </button>
                 </div>
-                <a href="#" class="posts__link-view view-link">
+                <a href="recent-posts" class="posts__link-view view-link">
                     View All Posts
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.132 16.693">
                         <g id="Group_23" data-name="Group 23" transform="translate(-1292.865 -1328.645)">
@@ -42,11 +42,19 @@
                             <picture>
                             
                                 @if($item->image !== '')
-                                    <source srcset="{!!$item->image!!}" type="image/webp">
-                                    <img src="{!!$item->image!!}" alt="{!!$item->title!!}">
+                                    <a href="{!!$item->uri!!}">
+                                        <picture>
+                                            <source srcset="{!!$item->image!!}" type="image/webp">
+                                            <img src="{!!$item->image!!}" alt="{!!$item->title!!}">
+                                        </picture>
+                                    </a>
                                 @else
-                                <source srcset="../assets/img/cards-img.webp" type="image/webp">
-                                    <img src="img/cards-img.jpg?_v=1655485994518" alt="{!!$item->title!!}">
+                                    <a href="{!!$item->uri!!}">
+                                        <picture>
+                                            <source srcset="../assets/img/cards-img.webp" type="image/webp">
+                                            <img src="img/cards-img.jpg?_v=1655485994518" alt="{!!$item->title!!}">
+                                        </picture>
+                                    </a>
                                 @endif
                             </picture>
                         </div>
@@ -71,107 +79,6 @@
                         </div>
                     </article>
                 @endforeach
-               
-                <article class="cards-posts__item">
-                    <div class="cards-posts__image">
-                        <picture><source srcset="../assets/img/cards-img.webp" type="image/webp"><img src="img/cards-img.jpg?_v=1655485994518" alt=""></picture>
-                    </div>
-                    <div class="cards-posts__info info-article-two">
-                        <h4 class="cards-posts__title">
-                            There’s Nothing As lovely as mary in the morning!
-                        </h4>
-                        <p class="cards-posts__text">
-                            Lorem ipsum dolor sit amet, consectetuer dolore magna aliquam erat volutpat. Ute imway and…
-                        </p>
-                        <div class="cards-posts__bottom">
-                            <div class="cards-posts__date">
-                                <time datetime="2017-03-24">24.03.2017</time>
-                                <span class="cards-posts__autor">Stephen Tryfyllis</span>
-                            </div>
-                            <span class="cards-posts__description">Photos, Churches, Icons</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="cards-posts__item">
-                    <div class="cards-posts__image">
-                        <picture><source srcset="../assets/img/cards-img.webp" type="image/webp"><img src="img/cards-img.jpg?_v=1655485994518" alt=""></picture>
-                    </div>
-                    <div class="cards-posts__info info-article-three">
-                        <h4 class="cards-posts__title">
-                            There’s Nothing As lovely as mary in the morning!
-                        </h4>
-                        <p class="cards-posts__text">
-                            Lorem ipsum dolor sit amet, consectetuer dolore magna aliquam erat volutpat. Ute imway and…
-                        </p>
-                        <div class="cards-posts__bottom">
-                            <div class="cards-posts__date">
-                                <time datetime="2017-03-24">24.03.2017</time>
-                                <span class="cards-posts__autor">Stephen Tryfyllis</span>
-                            </div>
-                            <span class="cards-posts__description">Photos, Churches, Icons</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="cards-posts__item">
-                    <div class="cards-posts__image">
-                        <picture><source srcset="../assets/img/cards-img.webp" type="image/webp"><img src="img/cards-img.jpg?_v=1655485994518" alt=""></picture>
-                    </div>
-                    <div class="cards-posts__info info-article-one">
-                        <h4 class="cards-posts__title">
-                            There’s Nothing As lovely as mary in the morning!
-                        </h4>
-                        <p class="cards-posts__text">
-                            Lorem ipsum dolor sit amet, consectetuer dolore magna aliquam erat volutpat. Ute imway and…
-                        </p>
-                        <div class="cards-posts__bottom">
-                            <div class="cards-posts__date">
-                                <time datetime="2017-03-24">24.03.2017</time>
-                                <span class="cards-posts__autor">Stephen Tryfyllis</span>
-                            </div>
-                            <span class="cards-posts__description">Photos, Churches, Icons</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="cards-posts__item">
-                    <div class="cards-posts__image">
-                        <picture><source srcset="../assets/img/cards-img.webp" type="image/webp"><img src="img/cards-img.jpg?_v=1655485994518" alt=""></picture>
-                    </div>
-                    <div class="cards-posts__info info-article-two">
-                        <h4 class="cards-posts__title">
-                            There’s Nothing As lovely as mary in the morning!
-                        </h4>
-                        <p class="cards-posts__text">
-                            Lorem ipsum dolor sit amet, consectetuer dolore magna aliquam erat volutpat. Ute imway and…
-                        </p>
-                        <div class="cards-posts__bottom">
-                            <div class="cards-posts__date">
-                                <time datetime="2017-03-24">24.03.2017</time>
-                                <span class="cards-posts__autor">Stephen Tryfyllis</span>
-                            </div>
-                            <span class="cards-posts__description">Photos, Churches, Icons</span>
-                        </div>
-                    </div>
-                </article>
-                <article class="cards-posts__item">
-                    <div class="cards-posts__image">
-                        <picture><source srcset="../assets/img/cards-img.webp" type="image/webp"><img src="../assets/img/cards-img.jpg?_v=1655485994518" alt=""></picture>
-                    </div>
-                    <div class="cards-posts__info info-article-three">
-                        <h4 class="cards-posts__title">
-                            There’s Nothing As lovely as mary in the morning!
-                        </h4>
-                        <p class="cards-posts__text">
-                            Lorem ipsum dolor sit amet, consectetuer dolore magna aliquam erat volutpat. Ute imway and…
-                        </p>
-                        <div class="cards-posts__bottom">
-                            <div class="cards-posts__date">
-                                <time datetime="2017-03-24">24.03.2017</time>
-                                <span class="cards-posts__autor">Stephen Tryfyllis</span>
-                            </div>
-                            <span class="cards-posts__description">Photos, Churches, Icons</span>
-                        </div>
-                    </div>
-                </article>
         </div>
     </div>
 </section>
