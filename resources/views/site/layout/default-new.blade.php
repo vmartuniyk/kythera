@@ -313,6 +313,7 @@
 					</div>
 					<div class="footer__item">
 						<div class="footer__title">Contact</div>
+						<a href="/contact" class="footer__title">Contact</a>
 						<address class="footer__address">Example Address</address>
 						<address class="footer__address">Example St, City</address>
 						<address class="footer__address">Example Country</address>
