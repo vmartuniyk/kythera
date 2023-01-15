@@ -3,6 +3,8 @@
 /app/config/local/database.php
 /tmp
 /public/storage
+/public/storage/*
+/storage/*.key
 /public/audio
 /public/download
 /public/downloads
@@ -34,4 +36,4 @@ kfn-tree.iml
 /storage/framework/views/*
 /storage/framework/views/.DS_Store
 /public/assets/vendors/jplayer/
-/storage/framework/
+/storage/framework/*
