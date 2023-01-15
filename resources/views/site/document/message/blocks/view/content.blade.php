@@ -5,6 +5,9 @@ $count = App\Models\Comment::whereEntityCount($item)
 ?>
 <div class="inner-page__content content-inner entry-page">
     <div class="content-inner__wrap">
+
+        <h1 class="inner-main-text__title">{{ @$page->title }}</h1>
+
         <div class="entry-card">
 
             <div class="entry-card__footer">
