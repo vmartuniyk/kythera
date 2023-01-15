@@ -75,25 +75,13 @@
                     <p class="card-articles__text">
                         {!! str_limit(strip_tags($item->content), 250) !!}
                     </p>
-                    <a href="{!!$item->uri!!}" class="card-articles__link view-link">
-                        View Full Message
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.132 16.693">
-                            <g data-name="Group 23" transform="translate(-1292.865 -1328.645)">
-                                <g data-name="Group 22">
-                                    <path data-name="Path 40" d="M1307.614,1328.991l7.691,8-7.691,8" fill="none" stroke="#24646d" stroke-miterlimit="10" stroke-width="1" />
-                                </g>
-                                <line data-name="Line 3" x1="21.613" transform="translate(1292.865 1336.991)" fill="none" stroke="#24646d" stroke-miterlimit="10" stroke-width="1" />
-                            </g>
-                        </svg>
-                    </a>
+
                     <div class="card-articles__footer">
                         <div class="card-articles__date">
                             <time datetime="{!! $item->created_at->format('d.m.Y') !!}">{!! $item->created_at->format('d.m.Y') !!}</time> &bull;
                             <span class="card-articles__autor">{!! $item->firstname . " ". $item->lastname !!}</span>
                         </div>
-                        <span class="card-articles__description">
-                            {!! $item->crumbs !!}
-                        </span>
+
                     </div>
                 </div>
             </article>
