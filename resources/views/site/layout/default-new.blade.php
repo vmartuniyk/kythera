@@ -320,8 +320,8 @@
 						<a href="mailto:email@email.com" class="footer__mail">email@email.com</a>
 					</div>
 					<div class="footer__item">
-						<a href="#" class="footer__title">GUESTBOOK</a>
-						<a href="#" class="footer__title">ARCHIVES</a>
+						<a href="/guestbook" class="footer__title">GUESTBOOK</a>
+						<a href="/newsletter-archive" class="footer__title">ARCHIVES</a>
 						<a href="#" class="footer__title">Donate</a>
 					</div>
 				</div>
