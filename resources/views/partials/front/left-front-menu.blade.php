@@ -414,6 +414,11 @@
                 <span>Message Board</span>
             </a>
         </div>
+        <div class="aside__item">
+            <a class="aside__title aside_single {{ (request()->segment(2) == 'guestbook') ? 'current' : '' }}" href="/en/guestbook">
+                <span>Guestbook</span>
+            </a>
+        </div>
 
         <div class="aside__item">
             <a class="aside__title aside_single {{ (request()->segment(2) == 'newsletter-archive') ? 'current' : '' }}" href="/en/newsletter-archive">
