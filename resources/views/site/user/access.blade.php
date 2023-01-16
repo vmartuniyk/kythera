@@ -159,7 +159,7 @@
 											</g>
 											<path data-name="Path 161" d="M-1370.655,493.051c-4.03,0-4.884,2.762-9.1-.286a9.637,9.637,0,0,0,9.1,6.075,9.864,9.864,0,0,0,9.1-6.075C-1365.771,495.813-1366.625,493.051-1370.655,493.051Z" transform="translate(1386.655 -475.149)" />
 										</svg>
-										<span>Register</span>
+										<span>Login</span>
 									</button>
 									<button type="button" class="log-menu__forget">Forget Password?</button>
 								</div>
