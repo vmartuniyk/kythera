@@ -30,7 +30,7 @@
                 </a>
             </li>
             <li class="aside__item">
-                <a href="#" class="aside__title active">
+                <a href="/your-personal-page/comments" class="aside__title active">
                     Comments
                     <span></span>
                 </a>
