@@ -546,6 +546,7 @@ function()
     // putting this here as it should ideally reference Confide with updating
     Route::get('your-personal-page/edit', 'PersonalPageController@edit');
     Route::get('your-personal-page/comments', 'PersonalCommentController@index');
+    Route::get('your-personal-page/categories', 'PersonalCategoryController@index');
 //    Route::get('your-personal-page/comments',array (
 //        'as' => 'site.page.your.personal.page.comments',
 //        'uses' => 'PersonalCommentController@index'

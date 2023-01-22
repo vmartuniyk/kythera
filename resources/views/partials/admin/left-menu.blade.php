@@ -24,7 +24,7 @@
     <nav class="aside__nav" id="aside-nav">
         <ul class="aside__wrap">
             <li class="aside__item">
-                <a href="#" class="aside__title">
+                <a href="/your-personal-page/categories" class="aside__title">
                     Entries
                     <span></span>
                 </a>
