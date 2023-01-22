@@ -547,11 +547,8 @@ function()
     Route::get('your-personal-page/edit', 'PersonalPageController@edit');
     Route::get('your-personal-page/comments', 'PersonalCommentController@index');
     Route::get('your-personal-page/categories', 'PersonalCategoryController@index');
-//    Route::get('your-personal-page/comments',array (
-//        'as' => 'site.page.your.personal.page.comments',
-//        'uses' => 'PersonalCommentController@index'
-//
-//    ) );
+    Route::get('your-personal-page/families', 'PersonalFamilyController@index');
+
 //    Route::get('your-personal-page/get-comment/{id}', 'PersonalPageController@getComment');
 
     Route::put('your-personal-page/edit', 'PersonalPageController@update');
