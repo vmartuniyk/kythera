@@ -80,7 +80,7 @@ class PersonalCategoryController extends PageController
 
         return view('site.page.personal.categories')
                 ->with('list', 'category')
-                ->with('page', $page)
+//                ->with('page', $page)
                 ->with('items', $items)
                 ->with('categories', $categories)
                 ->with('cat_stat', sprintf('%d posts in %d categories', $n, $c));
