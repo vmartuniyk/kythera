@@ -51,13 +51,15 @@ class PersonalPageController extends PageController
 
     protected function view($view = 'site.page.default')
     {
-
+//        dd('view');
+//        dd($this->getCurrentPage());
         switch ($this->getCurrentPage()->controller) {
+
             case 'PersonalPageController':
                 $view = 'site.page.personal.'.$view;
                 break;
         }
-
+//        dd($view);
         return view($view)
             ->with('page', $this->getCurrentPage());
     }
@@ -71,9 +73,14 @@ class PersonalPageController extends PageController
 
     public function getIndex()
     {
-
         return $this->view('index');
     }
+    public function getComments()
+    {
+//        dd('comments');
+        return $this->view('index');
+    }
+
 
 
     /**
@@ -82,10 +89,10 @@ class PersonalPageController extends PageController
 
     public function getCategory($id = null)
     {
-
+//        dd($id);
         if ($id) {
             $items = DocumentEntity::getUserEntries(Auth::user(), [ $id ], true);
-
+//            dd($items);
             if (count($items)) {
                 $item = $items[ 0 ];
                 $page = Router::getPageByID($item->page_id);
@@ -105,8 +112,9 @@ class PersonalPageController extends PageController
 
     public function getComment($id = null)
     {
-
+//        dd($id);
         if ($id) {
+
             $items = Comment::getUserComments(Auth::user(), [ $id ], true);
 
             if (count($items)) {
@@ -118,6 +126,7 @@ class PersonalPageController extends PageController
                     $entries[ $i ] = DocumentEntity::find($item->document_id);
                 }
             }
+
 
                 return $this->view('index')
                     ->with('list', 'comment')
