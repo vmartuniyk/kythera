@@ -36,7 +36,7 @@
                 </a>
             </li>
             <li class="aside__item">
-                <a href="#" class="aside__title">
+                <a href="/your-personal-page/families" class="aside__title">
                     Family Trees
                     <span></span>
                 </a>
